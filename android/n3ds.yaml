@@ -48,7 +48,7 @@ players:
     id: 3ds.thread3d
     app: org.thread3d.app/.LaunchActivity
     game: uri
-    files: [3ds, cci, cxi, app, cia, 3dsx]
+    files: [3ds, cci, cxi, app, cia, 3dsx, zcci, zcxi, zcia, z3dsx]
     flags: [clear-task, clear-top]
 
   - name: Borked 3DS
