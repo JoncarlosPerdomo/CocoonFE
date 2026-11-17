@@ -16,6 +16,7 @@ scrape:
 
 retroarch:
   mednafen_pce_fast: { files: [ccd, chd, cue, m3u, pce, toc] }
+  mednafen_supergrafx: { files: [ccd, chd, cue, pce] }
 
 players:
   - name: com.PceEmu
@@ -24,4 +25,4 @@ players:
     type: application/zip
     files: [ccd, chd, cue, m3u, pce, sgx, toc]
 
-  - retroarch: [mednafen_pce_fast, mednafen_pce]
+  - retroarch: [mednafen_pce_fast, mednafen_pce, mednafen_supergrafx]
