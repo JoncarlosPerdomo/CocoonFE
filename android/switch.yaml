@@ -15,14 +15,14 @@ players:
     app: dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
-    files: [nro, nso, nca, xci, nsp]
+    files: [nro, nso, nca, xci, nsp, nsz, xcz]
     resumes: no
 
   - name: Eden Nightly
     app: dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
-    files: [nro, nso, nca, xci, nsp]
+    files: [nro, nso, nca, xci, nsp, nsz, xcz]
     resumes: no
 
   - name: Citron
@@ -36,7 +36,7 @@ players:
     app: com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
-    files: [nro, nso, nca, xci, nsp]
+    files: [nro, nso, nca, xci, nsp, nsz, xcz]
     resumes: no
 
   - name: Eden Duo
@@ -50,21 +50,21 @@ players:
     app: com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
-    files: [nro, nso, nca, xci, nsp]
+    files: [nro, nso, nca, xci, nsp, nsz, xcz]
     resumes: no
 
   - name: Eden (Legacy)
     app: dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
-    files: [nro, nso, nca, xci, nsp]
+    files: [nro, nso, nca, xci, nsp, nsz, xcz]
     resumes: no
 
   - name: Eden Nightly (Legacy)
     app: dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
-    files: [nro, nso, nca, xci, nsp]
+    files: [nro, nso, nca, xci, nsp, nsz, xcz]
     resumes: no
 
   - name: Kenji-NX
